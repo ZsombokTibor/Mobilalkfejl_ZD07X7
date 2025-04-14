@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "42880507105",
+    "project_id": "torrent-b49a2",
+    "storage_bucket": "torrent-b49a2.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:42880507105:android:32b33afee7cb2eec06aba0",
+        "android_client_info": {
+          "package_name": "com.example.torrent"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxJ7JK-q9AcTXNvPVzQnq9r96WD5KGoOc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
