@@ -1,5 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Sötétebb színek az alkalmazáshoz -->
+    <color name="primary">#1565C0</color>         <!-- Sötétebb kék -->
+    <color name="primary_dark">#0D47A1</color>    <!-- Még sötétebb kék -->
+    <color name="primary_light">#90CAF9</color>   <!-- Világosabb kék -->
+    <color name="accent">#2E7D32</color>          <!-- Sötétebb zöld -->
+    <color name="primary_text">#FFFFFF</color>    <!-- Fehér szöveg -->
+    <color name="secondary_text">#BBDEFB</color>  <!-- Világoskék szöveg -->
+    <color name="background">#0A1929</color>      <!-- Sötét háttér -->
+    <color name="surface">#122940</color>         <!-- Sötét felületek -->
+    <color name="card_background">#0D2A4B</color> <!-- Kártyák háttere -->
+    <color name="error">#C62828</color>           <!-- Sötétebb piros -->
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="button_highlight">#FFA726</color> <!-- Narancssárga kiemelés -->
+    <color name="search_button">#FFC107</color>    <!-- Sárga keresőgomb -->
 </resources>

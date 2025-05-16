@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="16dp"
+    android:background="@color/background"
     tools:context=".RegisterActivity">
 
     <TextView
@@ -14,6 +15,7 @@
         android:text="Regisztráció"
         android:textSize="24sp"
         android:textStyle="bold"
+        android:textColor="@color/primary_text"
         app:layout_constraintBottom_toTopOf="@+id/tilRegisterEmail"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -25,7 +27,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:hint="Email"
+        app:boxStrokeColor="@color/primary_light"
+        app:hintTextColor="@color/primary_light"
         app:layout_constraintBottom_toTopOf="@+id/tilRegisterPassword"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -35,7 +40,8 @@
             android:id="@+id/etRegisterEmail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:inputType="textEmailAddress" />
+            android:inputType="textEmailAddress"
+            android:textColor="@color/white" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
@@ -43,7 +49,11 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:hint="Jelszó"
+        app:boxStrokeColor="@color/primary_light"
+        app:hintTextColor="@color/primary_light"
+        app:passwordToggleTint="@color/primary_light"
         app:layout_constraintBottom_toTopOf="@+id/tilConfirmPassword"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -54,7 +64,8 @@
             android:id="@+id/etRegisterPassword"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:inputType="textPassword" />
+            android:inputType="textPassword"
+            android:textColor="@color/white" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
@@ -62,7 +73,11 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:hint="Jelszó megerősítése"
+        app:boxStrokeColor="@color/primary_light"
+        app:hintTextColor="@color/primary_light"
+        app:passwordToggleTint="@color/primary_light"
         app:layout_constraintBottom_toTopOf="@+id/btnRegister"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -73,7 +88,8 @@
             android:id="@+id/etConfirmPassword"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:inputType="textPassword" />
+            android:inputType="textPassword"
+            android:textColor="@color/white" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <Button
@@ -82,6 +98,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
         android:text="Regisztráció"
+        app:backgroundTint="@color/primary"
         app:layout_constraintBottom_toTopOf="@+id/tvGoToLogin"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -93,7 +110,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:text="Már van fiókod? Jelentkezz be!"
-        android:textColor="@android:color/holo_blue_dark"
+        android:textColor="@color/primary_light"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

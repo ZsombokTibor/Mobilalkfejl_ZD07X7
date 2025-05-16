@@ -2,7 +2,18 @@
     <!-- Base application theme. -->
     <style name="Base.Theme.Torrent" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/accent</item>
+        <item name="android:colorBackground">@color/background</item>
+        <item name="colorSurface">@color/surface</item>
+        <item name="colorError">@color/error</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorOnSurface">@color/primary_text</item>
+        <item name="colorOnBackground">@color/primary_text</item>
+        <item name="colorOnError">@color/white</item>
+        <item name="android:statusBarColor">@color/primary_dark</item>
+        <item name="android:windowLightStatusBar">false</item>
     </style>
 
     <style name="Theme.Torrent" parent="Base.Theme.Torrent" />
